@@ -24,7 +24,7 @@
 ---
 
 ### 2. DevOps Workflow của bài Lab
-mermaid
+```mermaid
 graph LR
     PLAN["🧠 PLAN<br><b>QUYẾT ĐỊNH</b><br>Quyết định làm portfolio"] --> CODE["📝 CODE<br><b>VIẾT CODE</b><br>Viết index.html"]
     CODE --> BUILD["⚙️ BUILD<br><b>GIAI ĐOẠN BUILD</b><br>GitHub Actions chạy"]
@@ -38,3 +38,4 @@ graph LR
     style TEST fill:#e6f7ff,stroke:#1890ff,stroke-width:2px;
     style DEPLOY fill:#e6f7ff,stroke:#1890ff,stroke-width:2px;
     style MONITOR fill:#fffbe6,stroke:#faad14,stroke-width:2px;
+```
